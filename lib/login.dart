@@ -5,6 +5,7 @@ import 'package:adobe_xd/page_link.dart';
 import './main.dart';
 import './signup.dart';
 
+
 class login extends StatelessWidget {
   login({Key? key}) : super(key: key);
   @override
@@ -107,7 +108,7 @@ class login extends StatelessWidget {
               child: Text(
                 '아이디',
                 style: TextStyle(
-                  fontFamily: '0umSquareRound',
+                  fontFamily: 'OmniGothic050',
                   fontSize: 15,
                   color: const Color(0xffafafaf),
                 ),
@@ -123,7 +124,7 @@ class login extends StatelessWidget {
               child: Text(
                 '비밀번호',
                 style: TextStyle(
-                  fontFamily: '0umSquareRound',
+                  fontFamily: 'OmniGothic050',
                   fontSize: 15,
                   color: const Color(0xffafafaf),
                 ),
@@ -150,7 +151,7 @@ class login extends StatelessWidget {
             child: Text(
               '<-',
               style: TextStyle(
-                fontFamily: '210 OmniGothicOTF 050',
+                fontFamily: 'OmniGothic050',
                 fontSize: 20,
                 color: const Color(0xffafafaf),
               ),
@@ -165,7 +166,7 @@ class login extends StatelessWidget {
               child: Text(
                 '아이디 찾기',
                 style: TextStyle(
-                  fontFamily: '0umSquareRound',
+                  fontFamily: 'OmniGothic050',
                   fontSize: 15,
                   color: const Color(0xffafafaf),
                 ),
@@ -181,7 +182,7 @@ class login extends StatelessWidget {
               child: Text(
                 '비밀번호 찾기',
                 style: TextStyle(
-                  fontFamily: '0umSquareRound',
+                  fontFamily: 'OmniGothic050',
                   fontSize: 15,
                   color: const Color(0xffafafaf),
                 ),
@@ -204,7 +205,7 @@ class login extends StatelessWidget {
                 child: Text(
                   '회원가입',
                   style: TextStyle(
-                    fontFamily: '0umSquareRound',
+                    fontFamily: 'OmniGothic050',
                     fontSize: 15,
                     color: const Color(0xff3399ff),
                     fontWeight: FontWeight.w700,
@@ -222,7 +223,7 @@ class login extends StatelessWidget {
               child: Text(
                 '|',
                 style: TextStyle(
-                  fontFamily: '0umSquareRound',
+                  fontFamily: 'OmniGothic050',
                   fontSize: 15,
                   color: const Color(0xffafafaf),
                 ),
@@ -238,7 +239,7 @@ class login extends StatelessWidget {
               child: Text(
                 '|',
                 style: TextStyle(
-                  fontFamily: '0umSquareRound',
+                  fontFamily: 'OmniGothic050',
                   fontSize: 15,
                   color: const Color(0xffafafaf),
                 ),

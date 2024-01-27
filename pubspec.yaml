@@ -97,40 +97,41 @@ flutter:
   fonts:
     - family: OmniGothic010
       fonts:
-        - asset: fonts/210 옴니고딕 010.ttf
+        - asset: assets/fonts/210OmniGothic010.ttf
           weight: 100
     - family: OmniGothic020
       fonts:
-        - asset: fonts/210 옴니고딕 020.ttf
+        - asset: assets/fonts/210OmniGothic020.ttf
           weight: 300
     - family: OmniGothic030
       fonts:
-        - asset: fonts/210 옴니고딕 030.ttf
+        - asset: assets/fonts/210OmniGothic030.ttf
           weight: 500
     - family: OmniGothic040
       fonts:
-        - asset: fonts/210 옴니고딕 040.ttf
+        - asset: assets/fonts/210OmniGothic040.ttf
           weight: 700
     - family: OmniGothic050
       fonts:
-        - asset: fonts/210 옴니고딕 050.ttf
+        - asset: assets/fonts/210OmniGothic050.ttf
           weight: 900
 
     - family: NanumSquareRoundL
       fonts:
-        - asset: fonts/NanumSquareRoundL.ttf
+        - asset: assets/fonts/NanumSquareRoundL.ttf
           weight: 100
     - family: NanumSquareRoundR
       fonts:
-        - asset: fonts/NanumSquareRoundR.ttf
+        - asset: assets/fonts/NanumSquareRoundR.ttf
           weight: 400
+
     - family: NanumSquareRoundB
       fonts:
-        - asset: fonts/NanumSquareRoundB.ttf
+        - asset: assets/fonts/NanumSquareRoundB.ttf
           weight: 700
     - family: NanumSquareRoundEB
       fonts:
-        - asset: fonts/NanumSquareRoundEB.ttf
+        - asset: assets/fonts/NanumSquareRoundEB.ttf
           weight: 900
 
   #   - family: Schyler

@@ -56,7 +56,7 @@ class loginMain extends StatelessWidget {
                     child: Text(
                       '로그인',
                       style: TextStyle(
-                        fontFamily: 'OmniGothic050',
+                        fontFamily: 'OmniGothic010',
                         fontWeight: FontWeight.bold,
                         fontSize: 23,
                         color: const Color(0xffffffff),
@@ -94,7 +94,7 @@ class loginMain extends StatelessWidget {
                     child: Text(
                       '회원가입',
                       style: TextStyle(
-                        fontFamily: 'OmniGothic050',
+                        fontFamily: 'OmniGothic010',
                         fontWeight: FontWeight.bold,
                         fontSize: 23,
                         color: const Color(0xff3399ff),
