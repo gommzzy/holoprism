@@ -8,9 +8,7 @@ import './home.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Profile extends StatelessWidget {
-  Profile({
-    Key key,
-  }) : super(key: key);
+  Profile({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -202,7 +200,7 @@ class Profile extends StatelessWidget {
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  duration: NaN,
+                  duration: 0,
                   pageBuilder: () => pwChange(),
                 ),
               ],

@@ -5,8 +5,7 @@ import 'package:adobe_xd/page_link.dart';
 import './Profile.dart';
 
 class pwChange extends StatelessWidget {
-  pwChange({
-    Key key,
+  pwChange({Key? key
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -43,7 +42,7 @@ class pwChange extends StatelessWidget {
               child: PageLink(
                 links: [
                   PageLinkInfo(
-                    duration: NaN,
+                    duration: 0,
                     pageBuilder: () => pwChange1(),
                   ),
                 ],
@@ -65,7 +64,7 @@ class pwChange extends StatelessWidget {
             child: Text(
               '비밀번호 입력 ',
               style: TextStyle(
-                fontFamily: 'NanumSquareRound',
+                fontFamily: '0umSquareRound',
                 fontSize: 40,
                 color: const Color(0xff000000),
                 fontWeight: FontWeight.w800,
@@ -79,7 +78,7 @@ class pwChange extends StatelessWidget {
             child: Text(
               '비밀번호',
               style: TextStyle(
-                fontFamily: 'NanumSquareRound',
+                fontFamily: '0umSquareRound',
                 fontSize: 15,
                 color: const Color(0xffafafaf),
               ),
@@ -105,14 +104,14 @@ class pwChange extends StatelessWidget {
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  duration: NaN,
+                  duration: 0,
                   pageBuilder: () => Profile(),
                 ),
               ],
               child: Text(
                 '취소',
                 style: TextStyle(
-                  fontFamily: 'NanumSquareRound',
+                  fontFamily: '0umSquareRound',
                   fontSize: 20,
                   color: const Color(0xff3399ff),
                   fontWeight: FontWeight.w700,

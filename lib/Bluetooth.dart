@@ -8,7 +8,7 @@ import './home.dart';
 
 class Bluetooth extends StatelessWidget {
   Bluetooth({
-    Key key,
+    Key? key
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {

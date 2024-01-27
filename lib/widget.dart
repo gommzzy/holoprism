@@ -7,9 +7,7 @@ import './Bluetooth.dart';
 import './home.dart';
 
 class widget extends StatelessWidget {
-  widget({
-    Key key,
-  }) : super(key: key);
+  widget({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,7 +48,7 @@ class widget extends StatelessWidget {
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  duration: NaN,
+                  duration: 0,
                   pageBuilder: () => widget2(),
                 ),
               ],

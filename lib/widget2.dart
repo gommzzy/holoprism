@@ -9,9 +9,7 @@ import './home.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class widget2 extends StatelessWidget {
-  widget2({
-    Key key,
-  }) : super(key: key);
+  widget2({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -750,7 +748,7 @@ class widget2 extends StatelessWidget {
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  duration: NaN,
+                  duration: 0,
                   pageBuilder: () => widget4(),
                 ),
               ],
@@ -786,7 +784,7 @@ class widget2 extends StatelessWidget {
             child: PageLink(
               links: [
                 PageLinkInfo(
-                  duration: NaN,
+                  duration: 0,
                   pageBuilder: () => widget(),
                 ),
               ],

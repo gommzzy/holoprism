@@ -59,8 +59,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -75,7 +77,62 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+#  fonts:
+#    - family: OmniGothic
+#      fonts:
+#        - asset: fonts/210 옴니고딕 010.ttf
+#        - asset: fonts/210 옴니고딕 020.ttf
+#        - asset: fonts/210 옴니고딕 030.ttf
+#        - asset: fonts/210 옴니고딕 040.ttf
+#        - asset: fonts/210 옴니고딕 050.ttf
+#          weight: 700
+#    - family: NanumSquareRound
+#      fonts:
+#        - asset: fonts/NanumSquareRoundB.ttf
+#        - asset: fonts/NanumSquareRoundEB.ttf
+#        - asset: fonts/NanumSquareRoundL.ttf
+#        - asset: fonts/NanumSquareRoundR.ttf
+#          weight: 700
+
+  fonts:
+    - family: OmniGothic010
+      fonts:
+        - asset: fonts/210 옴니고딕 010.ttf
+          weight: 100
+    - family: OmniGothic020
+      fonts:
+        - asset: fonts/210 옴니고딕 020.ttf
+          weight: 300
+    - family: OmniGothic030
+      fonts:
+        - asset: fonts/210 옴니고딕 030.ttf
+          weight: 500
+    - family: OmniGothic040
+      fonts:
+        - asset: fonts/210 옴니고딕 040.ttf
+          weight: 700
+    - family: OmniGothic050
+      fonts:
+        - asset: fonts/210 옴니고딕 050.ttf
+          weight: 900
+
+    - family: NanumSquareRoundL
+      fonts:
+        - asset: fonts/NanumSquareRoundL.ttf
+          weight: 100
+    - family: NanumSquareRoundR
+      fonts:
+        - asset: fonts/NanumSquareRoundR.ttf
+          weight: 400
+    - family: NanumSquareRoundB
+      fonts:
+        - asset: fonts/NanumSquareRoundB.ttf
+          weight: 700
+    - family: NanumSquareRoundEB
+      fonts:
+        - asset: fonts/NanumSquareRoundEB.ttf
+          weight: 900
+
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf

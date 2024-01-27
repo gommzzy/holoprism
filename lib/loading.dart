@@ -17,7 +17,7 @@ class loading extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/logoImg.png'),
                   fit: BoxFit.fill,
                 ),
               ),
